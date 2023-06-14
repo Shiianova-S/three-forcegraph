@@ -1211,10 +1211,9 @@ d3-octree@1:
   resolved "https://registry.yarnpkg.com/d3-quadtree/-/d3-quadtree-3.0.1.tgz#6dca3e8be2b393c9a9d514dabbd80a92deef1a4f"
   integrity sha512-04xDrxQTDTCFwP5H6hRhsRcb9xxv2RzkcsygFzmkSIOJy3PeRJP7sNk3VRIbKXcog561P9oU0/rVH6vDROAgUw==
 
-"d3-scale-chromatic@1 - 3":
+"d3-scale-chromatic@https://github.com/Shiianova-S/d3-scale-chromatic":
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/d3-scale-chromatic/-/d3-scale-chromatic-3.0.0.tgz#15b4ceb8ca2bb0dcb6d1a641ee03d59c3b62376a"
-  integrity sha512-Lx9thtxAKrO2Pq6OO2Ua474opeziKr279P/TKZsMAhYyNDD3EnCffdbgeSYN5O7m2ByQsxtuP2CSDczNUIZ22g==
+  resolved "https://github.com/Shiianova-S/d3-scale-chromatic#c63877f31898b72eabcad549a06515f1b2ec5013"
   dependencies:
     d3-color "1 - 3"
     d3-interpolate "1 - 3"

@@ -49,7 +49,7 @@
     "d3-array": "1 - 3",
     "d3-force-3d": "2 - 3",
     "d3-scale": "1 - 4",
-    "d3-scale-chromatic": "1 - 3",
+    "d3-scale-chromatic": "https://github.com/Shiianova-S/d3-scale-chromatic",
     "data-joint": "1",
     "kapsule": "1",
     "ngraph.forcelayout": "3",
