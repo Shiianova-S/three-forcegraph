@@ -3,7 +3,7 @@ import commonJs from '@rollup/plugin-commonjs';
 import babel from '@rollup/plugin-babel';
 import terser from "@rollup/plugin-terser";
 import dts from 'rollup-plugin-dts';
-import pkg from './package.json' assert { type: 'json' };
+import * as pkg from './package.json';
 
 const umdConf = {
   format: 'umd',
@@ -58,3 +58,6 @@ export default [
     plugins: [dts()]
   }
 ];
+// "compilerOptions": {
+//   "esModuleInterop": true,
+// }
